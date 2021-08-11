@@ -1,0 +1,33 @@
+@import '../../styles/mixin_colors.scss';
+@import '../../styles/mixin_typography.scss';
+
+
+.FaireUnDon {
+    background-color: $navy_bleu_color;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 4%;
+
+    h2 {
+        @include title;
+        text-align: center;
+        width: 75%;
+        color: white;
+    }
+
+    div {
+        width: 13%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        button {
+            @include button;
+            background-color: $yello_color;
+            color: $navy_bleu_color;
+            padding: 10% 5% !important;
+        }
+    }
+}

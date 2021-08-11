@@ -1,0 +1,46 @@
+@import '../styles/mixin_colors.scss';
+@import '../styles/mixin_typography.scss';
+
+
+.dropDownActivites {
+    position: absolute;
+    margin-top: 26%;
+    margin-left: -1.8%;
+    width: max-content;
+    height: auto;
+    padding: 1%;
+    background: rgba(0, 0, 0, 0.747);
+    border-radius: 0 10px 10px 10px;
+    z-index: 90;
+    display: flex;
+    align-self: center;
+
+
+
+    .dropDownActivites_item {
+        padding: 2%;
+
+        h3 {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            font-weight: bolder;
+        }
+
+        div {
+            a {
+                color: white;
+                font-family: 'sansation', sans-serif;
+                font-size: 16px;
+                font-weight: normal;
+                text-decoration: none;
+                display: block;
+                padding: 2%;
+
+                &:hover {
+                    color: $yello_color;
+                }
+            }
+        }
+    }
+}

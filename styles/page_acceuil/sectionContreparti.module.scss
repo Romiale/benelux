@@ -1,0 +1,55 @@
+@import '../../styles/mixin_colors.scss';
+@import '../../styles/mixin_typography.scss';
+
+
+.SectionContreparti {
+    padding: 4% 4%;
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .SectionContreparti_comment {
+        width: 70%;
+        padding: 0 3% 0 0;
+        height: auto;
+
+        h2 {
+            @include title;
+        }
+
+        p {
+            @include paragraphe;
+
+            .EnSavoirPlus {
+                @include paragraphe;
+                color: $navy_bleu_color;
+                text-decoration: underline;
+            }
+        }
+
+        button {
+            @include button;
+            background-color: $navy_bleu_color;
+            color: white;
+            padding: 2%;
+
+        }
+
+
+    }
+
+    .SectionContreparti_image {
+        width: auto;
+        height: auto;
+        border: 10px dashed $navy_bleu_color;
+        border-radius: 50%;
+
+        img {
+            // width: 100%;
+            // height: 100%;
+            // border: solid 10px $navy_bleu_color;
+        }
+    }
+}
