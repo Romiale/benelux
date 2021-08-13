@@ -7,7 +7,7 @@ import SectionContreparti from '../components/page_acceuil/SectionContreparti'
 import Sensibilisation from '../components/page_acceuil/Sensibilisation'
 import SectionNotreParticipation from '../components/page_acceuil/SectionNotreParticipation'
 import FaireUnDon from '../components/page_acceuil/FaireUnDon'
-
+import SectionSante from '../components/page_acceuil/SectionSante'
 
 export default function Home() {
   return (
@@ -25,7 +25,8 @@ export default function Home() {
         <SectionContreparti />
         <Sensibilisation />
         <SectionNotreParticipation/>
-        <FaireUnDon/>
+        <FaireUnDon />
+        <SectionSante/>
       </main>
 
     </div>

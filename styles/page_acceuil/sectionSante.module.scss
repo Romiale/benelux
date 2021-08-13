@@ -1,6 +1,101 @@
 @import '../../styles/mixin_colors.scss';
 @import '../../styles/mixin_typography.scss';
 
-.sectionSante {
-    background-image: url('../../images/');
+.SectionSante {
+    background-image: url('../../images/BAC/bgsante.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    background-position: right 0% bottom 0;
+    background-size: 38% auto;
+    background-color: #F5F9FB;
+    width: 100%;
+    height: auto;
+    padding: 3%;
+
+    .SectionSante_comment {
+        width: 55%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+
+        h2 {
+            @include title;
+            text-align: left;
+            width: 100%
+        }
+
+        p {
+            @include paragraphe;
+            padding: 0 4% 8% 0;
+        }
+
+        .logoPartenaire {
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+            height: 100%;
+            padding-bottom: 10%;
+
+            div {
+                width: 30%;
+                background-color: #ffffff;
+                display: flex;
+                align-items: center;
+                margin-right: 2%;
+                padding: 1%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+
+        }
+
+        button {
+            @include button;
+            background-color: $navy_bleu_color;
+            color: white;
+            padding: 3%;
+        }
+    }
+
+    .SectionSante_illustration {
+        width: 48%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+
+        div {
+            width: 36%;
+            height: 30%;
+            margin: 1%;
+            border-radius: 10px;
+            background-color: rgb(100, 100, 100);
+
+            &:nth-child(1) {
+                width: 60%;
+                background-color: #fff;
+            }
+
+            &:nth-child(4) {
+                width: 60%;
+                background-color: #fff;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                border: solid 4px #047AAD;
+
+
+            }
+        }
+    }
 }
