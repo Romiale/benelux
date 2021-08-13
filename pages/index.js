@@ -8,6 +8,7 @@ import Sensibilisation from '../components/page_acceuil/Sensibilisation'
 import SectionNotreParticipation from '../components/page_acceuil/SectionNotreParticipation'
 import FaireUnDon from '../components/page_acceuil/FaireUnDon'
 import SectionSante from '../components/page_acceuil/SectionSante'
+import SectionValorisationDeDechets from '../components/page_acceuil/SectionValorisationDeDechets'
 
 export default function Home() {
   return (
@@ -26,7 +27,8 @@ export default function Home() {
         <Sensibilisation />
         <SectionNotreParticipation/>
         <FaireUnDon />
-        <SectionSante/>
+        <SectionSante />
+        <SectionValorisationDeDechets/>
       </main>
 
     </div>
