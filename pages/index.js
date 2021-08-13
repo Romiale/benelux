@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/page_acceuil/Home.module.scss'
-import Navbar from '../components/Navbar'
 import SectionAcceuil from '../components/page_acceuil/SectionAcceuil'
 import SectionContreparti from '../components/page_acceuil/SectionContreparti'
 import Sensibilisation from '../components/page_acceuil/Sensibilisation'
 import SectionNotreParticipation from '../components/page_acceuil/SectionNotreParticipation'
 import FaireUnDon from '../components/page_acceuil/FaireUnDon'
+import Layout from '../components/Layout'
 
 
 export default function Home() {
@@ -18,8 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
-      
+      <Layout>
       <main className={styles.main}>
         <SectionAcceuil />
         <SectionContreparti />
@@ -27,6 +26,8 @@ export default function Home() {
         <SectionNotreParticipation/>
         <FaireUnDon/>
       </main>
+      </Layout>
+      
 
     </div>
   )
