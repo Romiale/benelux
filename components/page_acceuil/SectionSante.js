@@ -2,6 +2,9 @@ import React from 'react'
 import styles from '../../styles/page_acceuil/sectionSante.module.scss'
 import logoCongoDorpen from '../../images/BAC/logo-congodorpen-2.png'
 import ImagePolio from '../../images/BAC/polio.jpeg'
+import ImageHopital from '../../images/BAC/index.jpeg'
+import ImageSanteAuCongo from '../../images/BAC/sante-au-congo-1.jpg'
+import ImageMedicaments from '../../images/BAC/medicaments.jpg'
 import ImageRotary from '../../images/BAC/rotary-logo-color-2019-simplified.svg'
 import ImageFoncaba from '../../images/BAC/KBA_Foncaba.gif'
 import Image from 'next/image'
@@ -24,9 +27,9 @@ function SectionSante() {
             </div>
             <div className={styles.SectionSante_illustration}>
                 <div> <img src={ImagePolio.src} alt="illustration" /> </div>
-                <div> <img src={ImagePolio.src} alt="illustration" /> </div>
-                <div> <img src={ImagePolio.src} alt="illustration" /> </div>
-                <div> <img src={ImagePolio.src} alt="illustration" /> </div>
+                <div> <img src={ImageHopital.src} alt="illustration" /> </div>
+                <div> <img src={ImageSanteAuCongo.src} alt="illustration" /> </div>
+                <div> <img src={ImageMedicaments.src} alt="illustration" /> </div>
             </div>
         </section>
     )
