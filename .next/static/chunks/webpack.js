@@ -182,7 +182,11 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
+<<<<<<< HEAD
 /******/ 		__webpack_require__.h = function() { return "923a9212d1e0dad88f9b"; }
+=======
+/******/ 		__webpack_require__.h = function() { return "67296dba80e1ac663954"; }
+>>>>>>> feature-card_organisation
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
