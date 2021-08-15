@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import CardFinalite from "../components/page_apropos/cardFinalite";
 import Styles from "../styles/page_apropos/apropos.module.scss";
 
 const Apropos = () => {
@@ -29,6 +30,12 @@ const Apropos = () => {
 			</div>
 			<div className={Styles.container_finalite}>
 				<h2 className={Styles.container_title}>Finalités de Benelux Afro Center</h2>
+				<div className={Styles.container_finalite_items}>
+					<div className={Styles.fond}></div>
+					<CardFinalite />
+					<CardFinalite />
+					<CardFinalite />
+				</div>
 			</div>
 		</Layout>
 	 );
