@@ -37,6 +37,7 @@ const Apropos = () => {
 					<CardFinalite />
 				</div>
 			</div>
+			<div className={Styles.container_finalite}></div>
 		</Layout>
 	 );
 }
