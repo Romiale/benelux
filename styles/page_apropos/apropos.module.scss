@@ -116,4 +116,20 @@
 
 .container_finalite {
 	@include big_title($navy_bleu_color);
+	h2 {
+		margin-bottom: 5%;
+	}
+
+	.container_finalite_items {
+		display: flex;
+
+		.fond {
+			height          : 33%;
+			background-color: rgba(4, 92, 130, 1);
+			width           : 100%;
+			position        : absolute;
+			z-index         : -1;
+			margin-top      : 4%;
+		}
+	}
 }
