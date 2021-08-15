@@ -37,6 +37,12 @@ const Apropos = () => {
 					<CardFinalite />
 				</div>
 			</div>
+			<div className={Styles.container_organisation}>
+				<h2 className={Styles.container_title}>Organisation pratique de la Benelux Afro Center</h2>
+				<p>
+					Pour ce faire, BAC Asbl est actif en même temps en Belgique pour une gamme très variée d'activités de coordination du programme financé par la DGD et d'économie sociale, et en République Démocratique du Congo dans les secteurs et domaines d'intervention ci-après :
+				</p>
+			</div>
 		</Layout>
 	 );
 }
