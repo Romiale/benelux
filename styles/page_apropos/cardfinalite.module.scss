@@ -1,0 +1,36 @@
+@import '../mixin_colors.scss';
+@import '../mixin_typography.scss';
+
+.cardfinalite {
+	box-shadow      : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: $navy_bleu_color;
+	font-family     : roboto;
+	max-width       : 300px;
+	margin-top      : 5%;
+	margin          : auto;
+	border-radius   : 0 0 10px 10px;
+
+	div {
+		background-color: $yello_color;
+		max-width       : 23%;
+		margin          : auto;
+		border-radius   : 0 0 10px 10px;
+	}
+
+	Image {
+		color: red;
+	}
+
+	p {
+		text-align : justify;
+		font-size  : 1.25rem;
+		color      : rgb(202, 199, 199);
+		padding    : 5%;
+		padding-top: 1%;
+	}
+
+	h3 {
+		color     : whitesmoke;
+		text-align: center;
+	}
+}
