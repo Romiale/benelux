@@ -1,0 +1,38 @@
+@import '../mixin_colors.scss';
+@import '../mixin_typography.scss';
+
+.cardorganisation {
+	box-shadow      : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: white;
+	font-family     : roboto;
+	max-width       : 70%;
+	margin-top      : 5%;
+	margin          : auto;
+	border-radius   : 15px 0 15px 0;
+
+	.cardorganisation_header {
+		display         : flex;
+		justify-content : space-between;
+		background-color: $navy_bleu_color;
+		height          : 6vh;
+		border-radius   : 15px 0 0px 0;
+		color           : white;
+		font-family     : roboto;
+		font-size       : 2rem;
+		font-weight     : bold;
+		text-align      : center;
+		vertical-align  : middle;
+
+		.cardorganisation_title1 {
+			background-color: $yello_color;
+			width           : 7%;
+			border-radius   : 15px 0 0 0;
+			color           : $navy_bleu_color;
+		}
+
+		.cardorganisation_title3 {
+			background-color: $navy_bleu_color;
+			width           : 5%;
+		}
+	}
+}
