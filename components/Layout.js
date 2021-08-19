@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
                     {open && <DropDownActivites dropDownOut={() => dropDownOut()} dropDown={()=>dropDown()} /> }
                 </li>
                 <li><a href="ne">Agenda</a></li>
-                <li ><a href="ne">Partenaires</a></li>
+                <li ><a href="/partner">Partenaires</a></li>
                 <li><a href="/apropos">À propos</a></li>
                 <li className={styles.connection}><a href="ne">Se connecter</a></li>
             </ul>
