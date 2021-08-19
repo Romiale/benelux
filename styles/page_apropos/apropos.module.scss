@@ -22,39 +22,35 @@
 			font-family     : sansation;
 			font-weight     : 700;
 			font-size       : 6.25rem;
-			text-align      : center;
+/* 			text-align      : center;
 			width           : 8.1%;
 			margin-left     : 0;
-			padding-top     : 25vh;
+			padding-top : 25vh;
+			*/
 		}
 
 		.items1 {
-			//background-color: rgb(240, 24, 240);
+			background-color: rgb(240, 24, 240);
 			color         : rgba(255, 255, 255, 0.27);
 			width         : 45%;
 			//border-right: grey 2px solid;
-			text-align    : left;
+			//text-align    : left;
 			font-size     : 3rem;
 			font-family   : sansation;
-			padding-top   : 28.5vh;
+			//padding-top   : 28.5vh;
 		}
 
 		.items2 {
 			@include paragraphe;
-			//background-color: rgb(10, 8, 5);
+			background-color: rgb(10, 8, 5);
 			width       : 48%;
-			text-align  : left;
+			//text-align  : left;
 			font-size   : 1.13rem;
 			font-weight : 500;
-			padding     : 14px;
+			/* padding     : 14px;
 			padding-left: 130px;
 			padding-top : 25vh;
-		}
-
-		.items3 {
-			//background-color: rgb(55, 241, 9);
-			width      : 0.1%;
-			padding-top: 44.9vh;
+			*/
 		}
 	}
 }
