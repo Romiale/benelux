@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import CardFinalite from "../components/page_apropos/cardFinalite";
 import CardOrganisation from "../components/page_apropos/cardOrganisation";
+import SectionContact from "../components/page_apropos/SectionContact";
 import Styles from "../styles/page_apropos/apropos.module.scss";
 
 const Apropos = () => {
@@ -47,6 +48,9 @@ const Apropos = () => {
 				<CardOrganisation />
 				<CardOrganisation />
 				<CardOrganisation/>
+			</div>
+			<div className={Styles.container_adresses}>
+				<SectionContact/>
 			</div>
 		</Layout>
 	 );
