@@ -14,6 +14,14 @@
     align-items: space-between;
     width: 30%;
 
+    @media (max-width:770px) {
+        width: 70%;
+        top: unset;
+        bottom: 5%;
+        right: 18%;
+        height: 33%;
+    }
+
     button {
         @include button;
         padding: 5% 0%;
