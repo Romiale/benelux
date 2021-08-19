@@ -19,18 +19,27 @@
 		color           : white;
 		font-family     : roboto;
 		font-size       : 2rem;
-		font-weight     : bold;
-		text-align      : center;
-		vertical-align  : middle;
+		font-weight : bold;
+
+		@mixin aligntitle_header {
+			display        : flex;
+			justify-content: center;
+			align-items    : center;
+		}
 
 		.cardorganisation_title1 {
+			@include aligntitle_header();
 			background-color: $yello_color;
 			width           : 7%;
 			border-radius   : 15px 0 0 0;
 			color           : $navy_bleu_color;
 		}
+		.cardorganisation_title2 {
+			@include aligntitle_header();
+		}
 
 		.cardorganisation_title3 {
+			@include aligntitle_header();
 			background-color: $navy_bleu_color;
 			width           : 5%;
 		}
