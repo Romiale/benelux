@@ -10,10 +10,10 @@ const SectionContact = () => {
 				<div className={Styles.container_map}>
 					<div className={Styles.container_google_map}>
 						<div className={Styles.container_google_map_bruxel}>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10071.015439791676!2d4.2898889!3d50.8727564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3861f5afaf5811ac!2sBenelux%20Afro%20Center!5e0!3m2!1sfr!2scd!4v1629365069069!5m2!1sfr!2scd" width="100%" height="100%" allowfullscreen="" loading="lazy"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10071.015439791676!2d4.2898889!3d50.8727564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3861f5afaf5811ac!2sBenelux%20Afro%20Center!5e0!3m2!1sfr!2scd!4v1629365069069!5m2!1sfr!2scd" width="100%" height="100%" allowFullScreen="" loading="lazy"></iframe>
 						</div>
 						<div className={Styles.container_google_map_kin}>
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.5080157546004!2d15.2722938152039!3d-4.315199396863453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a33d17ea85b4b%3A0x1eb35bce31945791!2sAve%20Des%20Cliniques%2C%20Kinshasa!5e0!3m2!1sfr!2scd!4v1629365928297!5m2!1sfr!2scd" width="100%" height="100%" allowfullscreen="" loading="lazy"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.5080157546004!2d15.2722938152039!3d-4.315199396863453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a33d17ea85b4b%3A0x1eb35bce31945791!2sAve%20Des%20Cliniques%2C%20Kinshasa!5e0!3m2!1sfr!2scd!4v1629365928297!5m2!1sfr!2scd" width="100%" height="100%" allowFullScreen="" loading="lazy"></iframe>
 						</div>
 					</div>
 					<div className={Styles.container_lieux}>

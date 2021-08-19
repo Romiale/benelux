@@ -1,0 +1,36 @@
+@import '../../styles/mixin_colors.scss';
+@import '../../styles/mixin_typography.scss';
+@import '../page_apropos/apropos.module.scss';
+
+.cardpartner {
+	max-width    : 25%;
+	text-align   : center;
+	border-radius: 15px 15px 15px 15px;
+	border       : 1px solid rgba(0, 103, 148, 0.24);
+	margin-left  : 3%;
+	padding      : 0.8% 1% 0.8% 1%;
+
+	.cardpartner_title {
+		@include title;
+		color    : #003F5A;
+		font-size: 1.25rem;
+	}
+
+	.cardpartner_paragraphe {
+		p {
+			@include paragraphe;
+			font-size: 0.8rem;
+		}
+	}
+
+	.cardpartner_container_btn {
+		height    : 50%;
+		margin-top: 6%;
+
+		button {
+			@include button;
+			border: 1px solid rgba(0, 103, 148, 0.24);
+			color : black;
+		}
+	}
+}
