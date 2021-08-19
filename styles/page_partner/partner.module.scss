@@ -1,0 +1,39 @@
+@import '../../styles/mixin_colors.scss';
+@import '../../styles/mixin_typography.scss';
+@import '../page_apropos/apropos.module.scss';
+
+.container_partner {
+	@include big_title(black);
+
+	.container_devenir_partner {
+		background     : linear-gradient(89.96deg, #004C5C 0.03%, rgba(0, 178, 255, 0.97) 99.96%);
+		width          : 100%;
+		height         : 20%;
+		display        : flex;
+		justify-content: space-between;
+		padding        : 1% 4%;
+		margin-top     : 5%;
+
+		h2 {
+			@include title;
+			font-size : 1.25rem;
+			text-align: center;
+			width     : 75%;
+			color     : white;
+		}
+
+		div {
+			width          : 13%;
+			display        : flex;
+			flex-direction : column;
+			justify-content: center;
+
+			button {
+				@include button;
+				background-color: $yello_color;
+				color           : $navy_bleu_color;
+				padding         : 10% 5% !important;
+			}
+		}
+	}
+}
