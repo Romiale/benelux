@@ -1,0 +1,57 @@
+@import '../styles/mixin_colors.scss';
+@import '../styles/mixin_typography.scss';
+
+
+.container_intro {
+	display      : flex;
+	background   : linear-gradient(90deg, rgba(2, 68, 98, 1) 0%, rgba(0, 63, 90, 1) 9%, rgba(0, 83, 118, 1) 97%);
+	color        : white;
+	height       : 45vh;
+	margin       : 0 0 0 3%;
+	border-radius: 0 0 0 200px;
+
+	.container_items {
+		display      : flex;
+		position     : relative;
+		margin-left  : 10%;
+		margin-right : 5%;
+		margin-bottom: 0;
+
+		@mixin align_title_header {
+			display        : flex;
+			justify-content: center;
+			align-items    : center;
+		}
+
+		.items0 {
+			@include align_title_header();
+			background-color: rgba(0, 0, 0, 0.27);
+			color           : $yello_color;
+			font-family     : sansation;
+			font-weight     : bold;
+			font-size       : 6.25rem;
+			width           : 8%;
+		}
+
+		.items1 {
+			@include align_title_header();
+			justify-content   : flex-start;
+			//background-color: rgb(240, 24, 240);
+			color             : rgba(255, 255, 255, 0.27);
+			width             : 45%;
+			font-size         : 3rem;
+			font-family       : sansation;
+			border-right      : 2px solid rgba(255, 255, 255, 0.27);
+		}
+
+		.items2 {
+			@include align_title_header();
+			@include paragraphe;
+			//background-color: rgb(10, 8, 5);
+			width      : 48%;
+			font-size  : 1.13rem;
+			font-weight: 500;
+			padding    : 4%;
+		}
+	}
+}
