@@ -10,7 +10,7 @@ import FaireUnDon from '../components/page_acceuil/FaireUnDon'
 import SectionSante from '../components/page_acceuil/SectionSante'
 import SectionValorisationDeDechets from '../components/page_acceuil/SectionValorisationDeDechets'
 import SectionNosPartenaires from '../components/page_acceuil/SectionNosPartenaires'
-
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -31,7 +31,8 @@ export default function Home() {
         <FaireUnDon />
         <SectionSante />
         <SectionValorisationDeDechets />
-        <SectionNosPartenaires/>
+        <SectionNosPartenaires />
+        <Footer/>
       </main>
 
     </div>
