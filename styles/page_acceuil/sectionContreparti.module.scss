@@ -52,6 +52,10 @@
         }
 
         button {
+            @media (max-width:700px) {
+                padding: 5%;
+            }
+
             @include button;
             background-color: $navy_bleu_color;
             color: white;

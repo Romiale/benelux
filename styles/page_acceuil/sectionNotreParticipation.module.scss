@@ -3,7 +3,7 @@
 
 .SectionNotreParticipation {
     background-color: #fff;
-    height: 100vh;
+    height: auto;
     width: 100%;
     padding: 4%;
     display: flex;
@@ -19,6 +19,7 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         margin: 3% 0;
     }
 
@@ -27,5 +28,9 @@
         background-color: $navy_bleu_color;
         color: white;
         padding: 1.2%;
+
+        @media (max-width:770px) {
+            padding: 5%;
+        }
     }
 }

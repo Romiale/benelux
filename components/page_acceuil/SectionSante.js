@@ -10,7 +10,7 @@ import ImageFoncaba from '../../images/BAC/KBA_Foncaba.gif'
 import Image from 'next/image'
 
 
-function SectionSante() {
+const SectionSante=() =>{
     return (
         <section className={styles.SectionSante}>
             <div className={styles.SectionSante_comment}>
@@ -18,18 +18,18 @@ function SectionSante() {
                 <p>Sur le plan de nos activités  en RDC, le secteur de la santé est l’une de nos priorités. Dépuis 2017 nous avons Créé des mutuelles de santé MUSA avec la participation de :</p>
                 <div>
                     <div className={styles.logoPartenaire}>  
-                       <div><img src={logoCongoDorpen.src} alt="logo" /></div>
+                        <div><img src={logoCongoDorpen.src} alt="logo" /></div>
                         <div><img src={ImageRotary.src} alt="logo" /></div>
                         <div><img src={ImageFoncaba.src} alt="logo" /></div>
-                  </div>
+                    </div>
                 </div>
                 <button>VOIR NOS ACTIONS</button>
             </div>
             <div className={styles.SectionSante_illustration}>
-                <div> <img src={ImagePolio.src} alt="illustration" /> </div>
-                <div> <img src={ImageHopital.src} alt="illustration" /> </div>
-                <div> <img src={ImageSanteAuCongo.src} alt="illustration" /> </div>
-                <div> <img src={ImageMedicaments.src} alt="illustration" /> </div>
+                    <div> <img src={ImagePolio.src} alt="illustration" /> </div>
+                    <div> <img src={ImageHopital.src} alt="illustration" /> </div>
+                    <div> <img src={ImageSanteAuCongo.src} alt="illustration" /> </div>
+                    <div> <img src={ImageMedicaments.src} alt="illustration" /> </div>
             </div>
         </section>
     )

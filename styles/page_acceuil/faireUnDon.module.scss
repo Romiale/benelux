@@ -10,24 +10,45 @@
     justify-content: space-between;
     padding: 1% 4%;
 
+    @media (max-width:770px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10%;
+    }
+
     h2 {
         @include title;
         text-align: center;
         width: 75%;
         color: white;
+
+        @media (max-width:770px) {
+            width: 100%;
+            text-align: center;
+        }
     }
 
     div {
-        width: 13%;
+        width: 25%;
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
 
+        @media (max-width:770px) {
+            width: 90%;
+        }
+
         button {
+
+
             @include button;
             background-color: $yello_color;
             color: $navy_bleu_color;
-            padding: 10% 5% !important;
+            padding: 5%;
+
         }
     }
+
 }
