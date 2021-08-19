@@ -1,59 +1,7 @@
 @import '../../styles/mixin_colors.scss';
 @import '../../styles/mixin_typography.scss';
 
-.container_intro {
-	background   : linear-gradient(90deg, rgba(2, 68, 98, 1) 0%, rgba(0, 63, 90, 1) 9%, rgba(0, 83, 118, 1) 97%);
-	color        : white;
-	height       : 45vh;
-	margin       : 0 0 0 3%;
-	border-radius: 0 0 0 200px;
 
-	.container_items {
-		display      : flex;
-		position     : relative;
-		margin-left  : 10%;
-		margin-right : 5%;
-		margin-bottom: 0;
-
-		.items0 {
-			background-color: rgba(0, 0, 0, 0.27);
-			color           : $yello_color;
-			float           : left;
-			font-family     : sansation;
-			font-weight     : 700;
-			font-size       : 6.25rem;
-/* 			text-align      : center;
-			width           : 8.1%;
-			margin-left     : 0;
-			padding-top : 25vh;
-			*/
-		}
-
-		.items1 {
-			background-color: rgb(240, 24, 240);
-			color         : rgba(255, 255, 255, 0.27);
-			width         : 45%;
-			//border-right: grey 2px solid;
-			//text-align    : left;
-			font-size     : 3rem;
-			font-family   : sansation;
-			//padding-top   : 28.5vh;
-		}
-
-		.items2 {
-			@include paragraphe;
-			background-color: rgb(10, 8, 5);
-			width       : 48%;
-			//text-align  : left;
-			font-size   : 1.13rem;
-			font-weight : 500;
-			/* padding     : 14px;
-			padding-left: 130px;
-			padding-top : 25vh;
-			*/
-		}
-	}
-}
 @mixin circle ($width, $height) {
 	.circle {
 		margin-left     : 2%;
